@@ -1,0 +1,28 @@
+{
+  "name": "apisprint",
+  "version": "1.0.0",
+  "description": "api sprint for group b",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HasnAr/APIsprint.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HasnAr/APIsprint/issues"
+  },
+  "homepage": "https://github.com/HasnAr/APIsprint#readme",
+  "scripts": { 
+    "start" : "nodemon ./server/server.js" },
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.4",
+    "morgan": "^1.8.1",
+    "request": "^2.79.0"
+  }
+}
